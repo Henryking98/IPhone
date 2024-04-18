@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="#">
-      <img src="https://ibb.co/L0rqSBQ" alt="Project Banner">
+      <img src="https://i.ibb.co/Cw6XB4J/iphone15.png" alt="Project Banner">
     </a>
   <br />
 
