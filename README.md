@@ -1,8 +1,7 @@
 <div align="center">
   <br />
-    <a href="#">
-      <img src="https://i.ibb.co/Cw6XB4J/iphone15.png" alt="Project Banner">
-    </a>
+   ![Iphone 15](https://i.ibb.co/Cw6XB4J/iphone15.png)
+  ### [Live Site](https://15iphone.netlify.app)
   <br />
 
   <div>
