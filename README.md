@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank">
-      <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner">
+    <a href="#">
+      <img src="https://ibb.co/L0rqSBQ" alt="Project Banner">
     </a>
   <br />
 
@@ -15,7 +15,7 @@
   <h3 align="center">Iphone 15 Website</h3>
 
    <div align="center">
-     Buit an iPhone 15-inspired website. Seamlessly blending innovation and style, with stunning design and animations, this site echoes the sleek 
+     Built an iPhone 15 inspired website. Seamlessly blending innovation and style, with stunning design and animations, this site echoes the sleek 
      aesthetics and user-friendly interface of Apple's latest device. Experience a browsing journey that mirrors the sophistication of the iPhone 15, 
      where every section feels like a glimpse into tomorrow.
     </div>
