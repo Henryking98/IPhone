@@ -18,6 +18,25 @@ body {
   user-select: none;
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #09090a;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #5c5c7b;
+    border-radius: 50px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7878a3;
+  }
+
 canvas {
   touch-action: none;
 }
@@ -39,7 +58,15 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue
+    @apply px-5 py-2 rounded-3xl bg-[#001737] my-5 hover:bg-transparent border border-transparent hover:border hover:text-white hover:border-[#001737]
+  }
+
+  .btn2 {
+    @apply flex items-center uppercase py-3 px-8 rounded-md text-white bg-[#001737]
+  }
+
+  .menu-control-container {
+     @apply items-end justify-end sm:hidden 
   }
 
   .color-container {
@@ -79,7 +106,7 @@ canvas {
   }
 
   .link {
-    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
+    @apply cursor-pointer flex items-center text-xl opacity-0 translate-y-20
   }
 
   .control-btn {
