@@ -3,28 +3,6 @@ import { appleImg, searchImg, bagImg } from "../utils";
 import {navLists} from "../constants";
 
 const Navbar = () => {
-    // const [activeMenu, setActiveMenu] = useState(true);
-    // const [screenSize, setScreenSize] = useState(null);
-
-    // useEffect(() => {
-    //     const handleResize = () => setScreenSize(window.innerWidth)
-
-    //     window.addEventListener("resize", handleResize);
-
-    //     handleResize();
-
-    //     return () => window.removeEventListener("resize", handleResize);
-
-    // }, []);
-
-    // useEffect(() => {
-    //     if(screenSize < 640) {
-    //         setActiveMenu(false)
-    //     }else {
-    //         setActiveMenu(true)
-    //     }
-    // }, [screenSize])
-
   return (
     <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center ">
       <nav className="flex w-full screen-max-width">
@@ -46,14 +24,6 @@ const Navbar = () => {
           <img src={searchImg} alt="search" width={18} height={18} />
           <img src={bagImg} alt="bag" width={18} height={18} />
         </div>
-
-        {/* <button
-          type="button"
-          className="menu-control-container"
-          onClick={() => setActiveMenu(!activeMenu)}
-        >
-          <img src={} alt="menu-icon" width={18} height={18} />
-        </button> */}
       </nav>
     </header>
   );
