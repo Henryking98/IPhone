@@ -1,29 +1,29 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { appleImg, searchImg, bagImg, rightImg } from "../utils";
 import {navLists} from "../constants";
 
 const Navbar = () => {
-    const [activeMenu, setActiveMenu] = useState(true);
-    const [screenSize, setScreenSize] = useState(null);
+    // const [activeMenu, setActiveMenu] = useState(true);
+    // const [screenSize, setScreenSize] = useState(null);
 
-    useEffect(() => {
-        const handleResize = () => setScreenSize(window.innerWidth)
+    // useEffect(() => {
+    //     const handleResize = () => setScreenSize(window.innerWidth)
 
-        window.addEventListener("resize", handleResize);
+    //     window.addEventListener("resize", handleResize);
 
-        handleResize();
+    //     handleResize();
 
-        return () => window.removeEventListener("resize", handleResize);
+    //     return () => window.removeEventListener("resize", handleResize);
 
-    }, []);
+    // }, []);
 
-    useEffect(() => {
-        if(screenSize < 640) {
-            setActiveMenu(false)
-        }else {
-            setActiveMenu(true)
-        }
-    }, [screenSize])
+    // useEffect(() => {
+    //     if(screenSize < 640) {
+    //         setActiveMenu(false)
+    //     }else {
+    //         setActiveMenu(true)
+    //     }
+    // }, [screenSize])
 
   return (
     <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center ">
@@ -47,13 +47,13 @@ const Navbar = () => {
           <img src={bagImg} alt="bag" width={18} height={18} />
         </div>
 
-        <button
+        {/* <button
           type="button"
           className="menu-control-container"
           onClick={() => setActiveMenu(!activeMenu)}
         >
           <img src={rightImg} alt="menu-icon" width={18} height={18} />
-        </button>
+        </button> */}
       </nav>
     </header>
   );
