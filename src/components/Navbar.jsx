@@ -1,5 +1,5 @@
 import React from 'react';
-import { appleImg, searchImg, bagImg, rightImg } from "../utils";
+import { appleImg, searchImg, bagImg } from "../utils";
 import {navLists} from "../constants";
 
 const Navbar = () => {
@@ -52,7 +52,7 @@ const Navbar = () => {
           className="menu-control-container"
           onClick={() => setActiveMenu(!activeMenu)}
         >
-          <img src={rightImg} alt="menu-icon" width={18} height={18} />
+          <img src={} alt="menu-icon" width={18} height={18} />
         </button> */}
       </nav>
     </header>
